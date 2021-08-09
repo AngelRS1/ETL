@@ -1,0 +1,765 @@
+1) jobs and applications analysis per company
++--------------------+-------------+----------------+
+|             company|total_adverts|total_applicants|
++--------------------+-------------+----------------+
+|           Ward-Hand|            1|              12|
+|      Fadel-Bergnaum|            1|              11|
+|    Emard-Macejkovic|            1|              14|
+|         Ritchie LLC|            1|               5|
+|      Herzog-Spencer|            1|               3|
+|           Mayer LLC|            1|               5|
+|     Greenholt Group|            1|              14|
+|     Schimmel-Harvey|            1|               3|
+|      Keeling-Sawayn|            1|               6|
+|   Hermiston-Dibbert|            1|               1|
+|            Lang LLC|            1|              11|
+|       Streich Group|            1|               1|
+|     Klocko-Nitzsche|            1|               8|
+|Schultz, Ruecker ...|            1|               5|
+|Schroeder, Wilder...|            1|               8|
+|          Paucek LLC|            2|              22|
+|         Walsh-Beier|            1|               1|
+|       Bednar-O'Hara|            1|              10|
+|           Berge Inc|            1|              12|
+|  Breitenberg-Senger|            1|               4|
+|Shields, Erdman a...|            1|               6|
+|Rolfson, Collins ...|            1|              11|
+|           Bogan Inc|            1|               6|
+|VonRueden, Willms...|            1|               9|
+|        Predovic Inc|            1|              15|
+|     Rosenbaum-Olson|            1|               1|
+|         Koelpin LLC|            1|               6|
+|Waters, Ferry and...|            1|              10|
+|         Lakin-Frami|            1|               9|
+|           Adams LLC|            1|               1|
+|      Rutherford LLC|            1|               5|
+|          Auer-Olson|            1|               2|
+|       Rodriguez LLC|            1|               6|
+|       King and Sons|            1|               3|
+|Jenkins, Baumbach...|            1|               1|
+|    Windler and Sons|            1|              11|
+|      Towne and Sons|            1|              14|
+|Macejkovic, Hand ...|            1|              14|
+|             Fay LLC|            1|               7|
+|Ullrich-Pfannerstill|            1|              13|
+|    Hudson-Bashirian|            1|               5|
+|Aufderhar, Ondric...|            1|               9|
+|       Schroeder Inc|            1|              10|
+|       Bailey-Schumm|            1|               5|
+|Abernathy, Haag a...|            1|              14|
+|        Kozey-Stokes|            1|              10|
+|      Davis and Sons|            1|              14|
+|          Kemmer Inc|            1|               4|
+|Rohan, Terry and ...|            1|               3|
+|Kub, Pfeffer and ...|            1|               3|
+|          Hessel LLC|            1|               1|
+|        MacGyver LLC|            1|              12|
+|       McDermott LLC|            1|              11|
+|    Shanahan-Fritsch|            1|               8|
+|         Jerde-Ferry|            1|               2|
+|       O'Connell Inc|            1|              11|
+|     Daugherty-Frami|            1|              15|
+|       Goodwin Group|            1|               6|
+|         McGlynn LLC|            1|               5|
+|      Morissette Inc|            1|               7|
+|      Corkery-Schumm|            1|               7|
+|      Hirthe-Pacocha|            1|              14|
+|       Hyatt-Effertz|            1|               7|
+|Hayes, Mueller an...|            1|              13|
+|Kshlerin, Senger ...|            1|               7|
+|Kilback, Wyman an...|            1|              12|
+|     Parker and Sons|            1|              11|
+|            Huel LLC|            1|              12|
+|Ratke, Franecki a...|            1|              13|
+|       Smitham-Hintz|            1|               7|
+|      Kuphal-Denesik|            1|              15|
+|     Hessel and Sons|            1|              12|
+|  Altenwerth-Steuber|            1|              15|
+|      Fadel and Sons|            1|               8|
+|Hills, Durgan and...|            1|              15|
+|Hickle, Corkery a...|            1|               6|
+|     Waelchi-Schuppe|            1|               9|
+|  Kuhlman-Cartwright|            1|              12|
+|   Johnston and Sons|            1|               2|
+|     Bashirian-Grady|            1|               3|
+|          Willms Inc|            1|               8|
+|Shields, Veum and...|            1|               2|
+|Kunze, Powlowski ...|            1|               6|
+|    Gusikowski Group|            1|               3|
+|         Nolan-Marks|            1|               7|
+|          Larson LLC|            1|               3|
+|Walter, Torphy an...|            1|               4|
+|        Reilly Group|            1|               2|
+|Kunde, Bosco and ...|            1|               1|
+|Bayer, Paucek and...|            1|               6|
+|        Champlin LLC|            1|               9|
+|         Reichel Inc|            1|               7|
+|       Gerlach-Mante|            1|              13|
+|   Bergnaum and Sons|            1|              13|
+|           Von-Boehm|            1|               9|
+|       Heathcote LLC|            1|               4|
+|           Dare-Rice|            1|               5|
+|      Erdman-Krajcik|            1|              14|
+|          Kohler LLC|            1|              11|
+|          Lang-Bauch|            1|               8|
+|Oberbrunner, Berg...|            1|              13|
+|Gislason, Upton a...|            1|              11|
+|          Metz Group|            1|               4|
+|           Boehm LLC|            1|               2|
+|         Howell-Cole|            1|               8|
+|        Dooley Group|            1|              11|
+|         Tromp Group|            1|              12|
+|       Fritsch-Purdy|            1|               1|
+|       Ullrich Group|            1|              14|
+|      Nikolaus Group|            1|              12|
+|Sanford, Howell a...|            1|               9|
+|   Kertzmann-Nicolas|            1|              15|
+|   Kling-Satterfield|            1|               8|
+|  Satterfield-Beatty|            1|              11|
+|Balistreri, Rogah...|            1|               3|
+|Hackett, Gleichne...|            1|              15|
+|   Ritchie-Wilkinson|            1|              14|
+|    Ratke-Williamson|            1|               1|
+|         Beier Group|            1|               7|
+|     Schinner-Durgan|            1|               3|
+|     Wilderman Group|            1|               1|
+|Gislason, Hills a...|            1|              12|
+|Crona, Bechtelar ...|            1|               1|
+|O'Connell, Krajci...|            1|              10|
+|    Johnston-Collins|            1|              11|
+| Balistreri and Sons|            1|               5|
+|        Bogisich LLC|            1|               2|
+|Dickinson, Jaskol...|            1|               2|
+|    Pfannerstill Inc|            1|              10|
+|Feest, Oberbrunne...|            1|              14|
+|Kuphal, Ernser an...|            1|              11|
+|          Roob Group|            1|              11|
+|Gusikowski, Upton...|            1|              14|
+|Ankunding, Jaskol...|            1|              11|
+|Langworth, MacGyv...|            1|              14|
+|Hyatt, Fisher and...|            1|               4|
+|    Kozey-Morissette|            1|               3|
+|      Cormier-Hamill|            1|               8|
+|McGlynn, Rau and ...|            1|               8|
+|  Stoltenberg-Barton|            1|               9|
+|     Tremblay-Cronin|            1|               2|
+|     Daugherty-Nolan|            1|               5|
+|Carroll, Larkin a...|            1|               8|
+|       Pfeffer Group|            1|              14|
+|        Schulist LLC|            1|               4|
+|       Keebler-Bauch|            1|              15|
+|        Borer-Hickle|            1|              14|
+|     Beatty and Sons|            1|               2|
+|Wisoky, Miller an...|            1|              14|
+|Bahringer, Glover...|            1|              14|
+|       Bechtelar Inc|            1|              11|
+|          Reilly Inc|            2|              10|
+|Macejkovic, Boehm...|            1|              12|
+|     Oberbrunner Inc|            1|               2|
+|Wolf, Heller and ...|            1|              12|
+|         Ebert-Beier|            1|               1|
+|Feil, Donnelly an...|            1|              13|
+|Windler, Wisozk a...|            1|              11|
+|Hodkiewicz-Bergstrom|            1|               4|
+|      Paucek-Kuvalis|            1|               8|
+|       Bayer-McClure|            1|               8|
+|     Wisoky-Predovic|            1|              15|
+|Hilll, Beer and H...|            1|               7|
+|Schumm, Stiedeman...|            1|              11|
+|          Littel LLC|            1|               3|
+|       Hand-Homenick|            1|              14|
+|       Armstrong Inc|            1|              14|
+|Johnson, Mosciski...|            1|              13|
+|Heathcote, Runolf...|            1|               3|
+|  Powlowski-Connelly|            1|              12|
+|            Dach LLC|            1|               4|
+|  Greenfelder-Hamill|            1|               7|
+|Nitzsche, Gulgows...|            1|               3|
+|Ankunding, Ondric...|            1|              15|
+|Schmeler, Hills a...|            1|               2|
+|          King-Wyman|            1|              10|
+|        Heller Group|            1|              12|
+|Becker, Hermann a...|            1|              14|
+|Predovic, Cumming...|            1|               4|
+|      MacGyver-Block|            1|               8|
+|      Bergnaum-Pagac|            1|               1|
+|   Connelly and Sons|            1|               4|
+|       Sporer-Abbott|            1|              13|
+|Weber, Bailey and...|            1|              14|
+|       Koelpin-Ferry|            1|              11|
+|      Little-Hagenes|            1|              11|
+|     Jenkins-Corkery|            1|              10|
+|    Hegmann and Sons|            2|              16|
+|Sporer, Kuhn and ...|            1|               4|
+|Altenwerth, Volkm...|            1|              13|
+|        Hammes-Hauck|            1|               8|
+|Lubowitz, Maggio ...|            1|               9|
+|         Strosin Inc|            1|              10|
+|         Parker-Ward|            1|               4|
+|     Kautzer-Rolfson|            1|              11|
+|        Cummings LLC|            1|               9|
+|        Mante-Wisoky|            1|               7|
+|        Jerde-Walter|            1|               8|
+|        Weissnat LLC|            1|               7|
+|Johns, Pfeffer an...|            1|              14|
+|           Feest Inc|            1|               2|
+|Streich, Hahn and...|            1|              12|
+|            Toy-Rowe|            1|               9|
+|  Medhurst-Lueilwitz|            1|              11|
+|Larkin, Price and...|            1|               8|
+|Stiedemann, Homen...|            1|               7|
+|          Jast-Bauch|            1|              10|
+|  Armstrong and Sons|            1|              15|
+|Pollich, Harvey a...|            1|               2|
+|        Tremblay LLC|            1|               2|
+|           Bayer LLC|            1|               7|
+|Lynch, McCullough...|            1|               6|
+|Upton, Hirthe and...|            1|              15|
+|      Terry-Gislason|            1|               9|
+|            Funk LLC|            1|              15|
+|        Marvin Group|            1|               6|
+|     Casper and Sons|            1|               1|
+|  Keeling-Swaniawski|            1|               9|
+|Kshlerin, Watsica...|            1|              12|
+|      Nienow-Padberg|            1|               7|
+|Armstrong, Crona ...|            1|               2|
+|Lind, Kertzmann a...|            1|               7|
+|Emmerich, Little ...|            1|               3|
+|   Schaefer and Sons|            1|              14|
+|          Auer-Moore|            1|              13|
+|       Terry-Denesik|            1|               7|
+|      Kiehn and Sons|            1|              11|
+|Nicolas, Nitzsche...|            1|               5|
+|      Price and Sons|            1|              15|
+|        Deckow-Blick|            1|              11|
+|Goldner, Langwort...|            1|               2|
+|     Morar-Schneider|            1|               4|
+|Ruecker, Oberbrun...|            1|               5|
+|        Paucek Group|            1|               9|
+|    Pfeffer and Sons|            1|               3|
+|      Tremblay Group|            1|               5|
+|        Bergnaum LLC|            1|              12|
+|      Boehm and Sons|            1|              12|
+|Wiegand, Lang and...|            1|              12|
+|Sporer, Pollich a...|            1|               8|
+|          Mann Group|            1|               2|
+|Gottlieb, Bashiri...|            1|              10|
+|    Reichel and Sons|            1|               8|
+|    Berge-Macejkovic|            1|               5|
+|        Waters Group|            1|              14|
+|Sanford, Labadie ...|            1|              12|
+|Cormier, McCullou...|            1|              13|
+| McLaughlin-Cummings|            1|              12|
+|Hamill, Watsica a...|            1|              12|
+|       Blick-Trantow|            1|               9|
+|   Donnelly and Sons|            1|               3|
+|Turcotte, Bernhar...|            1|              15|
+|Rolfson, West and...|            1|              11|
+|       Monahan Group|            1|              13|
+|Little, Jenkins a...|            1|               3|
+|   Funk-Christiansen|            1|               3|
+|        Stokes-Marks|            1|              10|
++--------------------+-------------+----------------+
+
+2) Analysis by date (applications by month, by day, by year)
+
++----+-------+--------+-----+-----+---+----+----+------+---------+-------+--------+--------+
+|Year|January|February|March|April|May|June|July|August|September|October|November|December|
++----+-------+--------+-----+-----+---+----+----+------+---------+-------+--------+--------+
+|2010|      0|       0|    0|    0|  0|   0|   0|     0|       19|     22|      18|      35|
+|2011|      8|       6|   20|   27| 24|  24|   2|     5|       28|      0|       2|      22|
+|2012|     21|      18|   17|   28| 32|   5|  21|    13|       16|      3|      11|      23|
+|2013|     15|       4|   27|   13| 17|  10|   3|     0|       27|     11|      27|      15|
+|2014|      0|       9|    3|   16| 28|   2|   8|    16|       21|      0|      18|       8|
+|2015|     16|      23|   14|   33| 21|   8|   2|    11|        0|      2|       2|      27|
+|2016|      7|      12|    2|   27| 19|   0|  12|     6|        4|      8|      33|      17|
+|2017|     14|      26|    3|    3|  0|  30|  16|    11|       18|     13|      12|      10|
+|2018|     31|       7|    5|   24| 22|  27|  10|    11|        6|      2|      50|       5|
+|2019|      9|      25|   17|   17| 20|  39|  26|    28|       31|     30|      20|       6|
+|2020|     41|      12|    6|    5| 20|  22|   1|    24|        0|      0|       0|       0|
++----+-------+--------+-----+-----+---+----+----+------+---------+-------+--------+--------+
+
++----+------------------+
+|Year|total_Applications|
++----+------------------+
+|2010|                94|
+|2011|               168|
+|2012|               208|
+|2013|               169|
+|2014|               129|
+|2015|               159|
+|2016|               147|
+|2017|               156|
+|2018|               200|
+|2019|               268|
+|2020|               131|
++----+------------------+
+
++-----+------------------+
+|Month|total_Applications|
++-----+------------------+
+|    1|               162|
+|    2|               142|
+|    3|               114|
+|    4|               193|
+|    5|               203|
+|    6|               167|
+|    7|               101|
+|    8|               125|
+|    9|               170|
+|   10|                91|
+|   11|               193|
+|   12|               168|
++-----+------------------+
+
++----+------------------+
+| day|total_Applications|
++----+------------------+
+|   1|                57|
+|   2|                60|
+|   3|                50|
+|   4|                83|
+|   5|                71|
+|   6|                73|
+|   7|                55|
+|   8|                51|
+|   9|                70|
+|  10|                88|
+|  11|                78|
+|  12|                80|
+|  13|                70|
+|  14|                71|
+|  15|                64|
+|  16|                56|
+|  17|                61|
+|  18|                53|
+|  19|                46|
+|  20|                49|
+|  21|                58|
+|  22|                55|
+|  23|                53|
+|  24|                59|
+|  25|                46|
+|  26|                56|
+|  27|                49|
+|  28|                53|
+|  29|                48|
+|  30|                42|
+|  31|                24|
++----+------------------+
+
+
+3) Applications analysis by company Sector
++--------------------+------------------+
+|              sector|total_Applications|
++--------------------+------------------+
+|            Services|               166|
+|  Product Management|               192|
+|               Sales|               167|
+|         Engineering|               100|
+|          Accounting|               169|
+|Business Development|               205|
+|Research and Deve...|               155|
+|               Legal|               196|
+|            Training|               153|
+|           Marketing|               112|
+|             Support|               182|
+|     Human Resources|               193|
++--------------------+------------------+
+
+4) Analysis of applications distributions based on age ranges
++---------+------------------+
+|age_range|total_Applications|
++---------+------------------+
+|      >70|               321|
+|    11-20|              1829|
++---------+------------------+
+
+5) Performance on jobs (applications by job)
++--------------------+------------------+
+|                 job|total_Applications|
++--------------------+------------------+
+|  Recruiting Manager|                15|
+|        Geologist II|                 4|
+|       Geologist III|                24|
+|Database Administ...|                23|
+|   Financial Analyst|                17|
+|  Analyst Programmer|                 7|
+|       Accountant IV|                 7|
+|Software Test Eng...|                14|
+|    Product Engineer|                11|
+|  Environmental Tech|                 8|
+|Mechanical System...|                29|
+| Assistant Professor|                21|
+|Nuclear Power Eng...|                 9|
+|Information Syste...|                23|
+|      Statistician I|                 2|
+| Executive Secretary|                13|
+|    Web Developer II|                13|
+|     Sales Associate|                10|
+|Account Represent...|                11|
+|GIS Technical Arc...|                 7|
+|      Civil Engineer|                33|
+|     Web Designer II|                 4|
+|     Statistician II|                11|
+|Analog Circuit De...|                13|
+|    Registered Nurse|                42|
+|   Account Executive|                48|
+|    Statistician III|                12|
+| Associate Professor|                 1|
+|   Marketing Manager|                 6|
+|Computer Systems ...|                 9|
+|            Operator|                 8|
+|        Developer IV|                13|
+|     Project Manager|                28|
+|             Teacher|                 4|
+|  VP Quality Control|                 6|
+|  Biostatistician II|                 5|
+|          Engineer I|                14|
+|Senior Quality En...|                20|
+|Accounting Assist...|                11|
+|    Graphic Designer|                30|
+|Staff Accountant III|                12|
+|     Staff Scientist|                19|
+|Systems Administr...|                16|
+|Help Desk Technician|                17|
+|    Quality Engineer|                31|
+|  Nurse Practicioner|                15|
+|    Media Manager IV|                 6|
+|     Media Manager I|                15|
+|Human Resources A...|                 4|
+|   Chemical Engineer|                51|
+|  Research Associate|                 9|
+|        Food Chemist|                 2|
+|Quality Control S...|                21|
+|Physical Therapy ...|                27|
+|     General Manager|                 8|
+|Occupational Ther...|                18|
+| Software Engineer I|                 7|
+|Sales Representative|                 1|
+| Marketing Assistant|                26|
+|           Librarian|                16|
+|Community Outreac...|                54|
+|Chief Design Engi...|                13|
+|     Legal Assistant|                40|
+|    Technical Writer|                 8|
+|VP Product Manage...|                12|
+|           Recruiter|                22|
+|     Design Engineer|                 6|
+|  Speech Pathologist|                12|
+|     Web Developer I|                15|
+| Structural Engineer|                22|
+|    Health Coach III|                 3|
+|        Developer II|                 7|
+|        Accountant I|                35|
+| Clinical Specialist|                 9|
+|        Programmer I|                11|
+|       Accountant II|                12|
+|Programmer Analys...|                 9|
+|Senior Financial ...|                23|
+|Environmental Spe...|                28|
+|   Director of Sales|                 6|
+|  Staff Accountant I|                10|
+|       Developer III|                 4|
+|       Senior Editor|                47|
+|Assistant Media P...|                27|
+| Software Consultant|                17|
+|          Pharmacist|                31|
+|Payment Adjustmen...|                19|
+|Administrative Of...|                11|
+| Electrical Engineer|                28|
+|           Paralegal|                17|
+|         Geologist I|                12|
+|Structural Analys...|                48|
+|  Help Desk Operator|                20|
+|Senior Sales Asso...|                10|
+|       VP Accounting|                 8|
+|Senior Cost Accou...|                18|
+|Human Resources A...|                 5|
+|      Health Coach I|                 7|
+|Software Test Eng...|                20|
+|Research Assistan...|                 9|
+|            VP Sales|                24|
+|             Actuary|                21|
+|Desktop Support T...|                20|
+|   Biostatistician I|                10|
+|           Professor|                15|
+|Human Resources A...|                 5|
+|Compensation Analyst|                40|
+|     Health Coach II|                14|
+|  Office Assistant I|                12|
+|Business Systems ...|                42|
+|     Cost Accountant|                14|
+|    Internal Auditor|                12|
+|   Assistant Manager|                21|
+|   Financial Advisor|                10|
+|Systems Administr...|                21|
+|              Editor|                 7|
+|      Tax Accountant|                39|
+|       Social Worker|                29|
+|     Web Designer IV|                12|
++--------------------+------------------+
+
+6) Posted jobs by company and period of time
++--------------------+----------------+--------------------+-------------------+---------------------------+
+|             company|total_postedjobs|first_postedjob_date|last_postedjob_date|days_between_first_and_last|
++--------------------+----------------+--------------------+-------------------+---------------------------+
+|          Reilly Inc|               2|          2012-02-28|         2020-08-15|                       3091|
+|    Hegmann and Sons|               2|          2011-03-05|         2018-05-01|                       2614|
+|          Paucek LLC|               2|          2011-04-15|         2015-05-21|                       1497|
+|   Hermiston-Dibbert|               1|          2015-01-16|         2015-01-16|                          0|
+|      Keeling-Sawayn|               1|          2010-09-16|         2010-09-16|                          0|
+|     Schimmel-Harvey|               1|          2019-09-17|         2019-09-17|                          0|
+|           Bogan Inc|               1|          2018-12-12|         2018-12-12|                          0|
+|Rolfson, Collins ...|               1|          2012-03-31|         2012-03-31|                          0|
+|           Ward-Hand|               1|          2015-02-07|         2015-02-07|                          0|
+|     Greenholt Group|               1|          2012-11-29|         2012-11-29|                          0|
+|  Breitenberg-Senger|               1|          2012-06-25|         2012-06-25|                          0|
+|Shields, Erdman a...|               1|          2017-10-23|         2017-10-23|                          0|
+|VonRueden, Willms...|               1|          2013-04-04|         2013-04-04|                          0|
+|           Berge Inc|               1|          2018-01-06|         2018-01-06|                          0|
+|           Mayer LLC|               1|          2016-12-16|         2016-12-16|                          0|
+|       Bednar-O'Hara|               1|          2019-09-08|         2019-09-08|                          0|
+|         Walsh-Beier|               1|          2018-03-17|         2018-03-17|                          0|
+|          Auer-Olson|               1|          2011-09-02|         2011-09-02|                          0|
+|    Emard-Macejkovic|               1|          2014-08-28|         2014-08-28|                          0|
+|      Fadel-Bergnaum|               1|          2018-01-16|         2018-01-16|                          0|
+|      Herzog-Spencer|               1|          2014-04-03|         2014-04-03|                          0|
+|         Ritchie LLC|               1|          2017-04-11|         2017-04-11|                          0|
+|     Klocko-Nitzsche|               1|          2010-09-30|         2010-09-30|                          0|
+|            Lang LLC|               1|          2016-12-01|         2016-12-01|                          0|
+|Schroeder, Wilder...|               1|          2016-05-07|         2016-05-07|                          0|
+|Schultz, Ruecker ...|               1|          2017-12-01|         2017-12-01|                          0|
+|       Streich Group|               1|          2011-09-12|         2011-09-12|                          0|
+|       King and Sons|               1|          2013-01-19|         2013-01-19|                          0|
+|Waters, Ferry and...|               1|          2019-08-08|         2019-08-08|                          0|
+|Macejkovic, Hand ...|               1|          2016-05-02|         2016-05-02|                          0|
+|      Towne and Sons|               1|          2019-02-24|         2019-02-24|                          0|
+|    Windler and Sons|               1|          2011-02-16|         2011-02-16|                          0|
+|      Hirthe-Pacocha|               1|          2017-06-04|         2017-06-04|                          0|
+|       Rodriguez LLC|               1|          2020-01-17|         2020-01-17|                          0|
+|Abernathy, Haag a...|               1|          2012-12-03|         2012-12-03|                          0|
+|        Kozey-Stokes|               1|          2017-09-14|         2017-09-14|                          0|
+|             Fay LLC|               1|          2012-03-11|         2012-03-11|                          0|
+|Ullrich-Pfannerstill|               1|          2018-06-11|         2018-06-11|                          0|
+|         Koelpin LLC|               1|          2020-08-10|         2020-08-10|                          0|
+|      Davis and Sons|               1|          2016-11-13|         2016-11-13|                          0|
+|        Predovic Inc|               1|          2011-05-08|         2011-05-08|                          0|
+|     Rosenbaum-Olson|               1|          2014-05-14|         2014-05-14|                          0|
+|Jenkins, Baumbach...|               1|          2014-08-26|         2014-08-26|                          0|
+|Aufderhar, Ondric...|               1|          2014-06-25|         2014-06-25|                          0|
+|       Bailey-Schumm|               1|          2013-06-17|         2013-06-17|                          0|
+|    Hudson-Bashirian|               1|          2012-08-21|         2012-08-21|                          0|
+|       Schroeder Inc|               1|          2014-08-26|         2014-08-26|                          0|
+|           Adams LLC|               1|          2015-06-10|         2015-06-10|                          0|
+|         Lakin-Frami|               1|          2018-11-19|         2018-11-19|                          0|
+|      Rutherford LLC|               1|          2011-12-26|         2011-12-26|                          0|
+|        MacGyver LLC|               1|          2017-07-31|         2017-07-31|                          0|
+|         McGlynn LLC|               1|          2010-10-22|         2010-10-22|                          0|
+|      Morissette Inc|               1|          2017-09-25|         2017-09-25|                          0|
+|            Huel LLC|               1|          2010-09-04|         2010-09-04|                          0|
+|          Hessel LLC|               1|          2012-03-23|         2012-03-23|                          0|
+|       McDermott LLC|               1|          2018-07-21|         2018-07-21|                          0|
+|       Goodwin Group|               1|          2011-12-07|         2011-12-07|                          0|
+|  Kuhlman-Cartwright|               1|          2010-11-28|         2010-11-28|                          0|
+|    Shanahan-Fritsch|               1|          2018-04-11|         2018-04-11|                          0|
+|     Bashirian-Grady|               1|          2015-01-05|         2015-01-05|                          0|
+|   Johnston and Sons|               1|          2010-12-18|         2010-12-18|                          0|
+|      Corkery-Schumm|               1|          2017-02-12|         2017-02-12|                          0|
+|Ankunding, Jaskol...|               1|          2019-06-14|         2019-06-14|                          0|
+|       Hyatt-Effertz|               1|          2014-11-15|         2014-11-15|                          0|
+|          Kemmer Inc|               1|          2014-09-21|         2014-09-21|                          0|
+|Kub, Pfeffer and ...|               1|          2019-05-27|         2019-05-27|                          0|
+|Rohan, Terry and ...|               1|          2011-11-26|         2011-11-26|                          0|
+|Hickle, Corkery a...|               1|          2012-06-30|         2012-06-30|                          0|
+|Hills, Durgan and...|               1|          2013-09-21|         2013-09-21|                          0|
+|     Waelchi-Schuppe|               1|          2018-05-11|         2018-05-11|                          0|
+|Hayes, Mueller an...|               1|          2012-05-08|         2012-05-08|                          0|
+|Kilback, Wyman an...|               1|          2020-08-11|         2020-08-11|                          0|
+|Kshlerin, Senger ...|               1|          2013-09-05|         2013-09-05|                          0|
+|     Parker and Sons|               1|          2019-08-23|         2019-08-23|                          0|
+|     Hessel and Sons|               1|          2012-07-12|         2012-07-12|                          0|
+|      Kuphal-Denesik|               1|          2011-06-09|         2011-06-09|                          0|
+|Ratke, Franecki a...|               1|          2012-09-14|         2012-09-14|                          0|
+|       Smitham-Hintz|               1|          2012-04-25|         2012-04-25|                          0|
+|          Willms Inc|               1|          2018-05-14|         2018-05-14|                          0|
+|  Altenwerth-Steuber|               1|          2020-01-03|         2020-01-03|                          0|
+|      Fadel and Sons|               1|          2020-08-10|         2020-08-10|                          0|
+|Kunze, Powlowski ...|               1|          2013-02-16|         2013-02-16|                          0|
+|    Gusikowski Group|               1|          2015-01-11|         2015-01-11|                          0|
+|Shields, Veum and...|               1|          2015-05-26|         2015-05-26|                          0|
+|          Larson LLC|               1|          2019-02-27|         2019-02-27|                          0|
+|Walter, Torphy an...|               1|          2019-09-23|         2019-09-23|                          0|
+|Bayer, Paucek and...|               1|          2013-09-08|         2013-09-08|                          0|
+|Kunde, Bosco and ...|               1|          2010-10-10|         2010-10-10|                          0|
+|        Reilly Group|               1|          2015-03-09|         2015-03-09|                          0|
+|Gislason, Upton a...|               1|          2017-05-28|         2017-05-28|                          0|
+|         Nolan-Marks|               1|          2011-05-22|         2011-05-22|                          0|
+|   Bergnaum and Sons|               1|          2010-11-18|         2010-11-18|                          0|
+|       Gerlach-Mante|               1|          2019-02-14|         2019-02-14|                          0|
+|          Kohler LLC|               1|          2019-08-10|         2019-08-10|                          0|
+|          Lang-Bauch|               1|          2015-06-03|         2015-06-03|                          0|
+|Oberbrunner, Berg...|               1|          2015-12-30|         2015-12-30|                          0|
+|         Howell-Cole|               1|          2019-06-26|         2019-06-26|                          0|
+|          Metz Group|               1|          2017-10-17|         2017-10-17|                          0|
+|      Erdman-Krajcik|               1|          2014-05-17|         2014-05-17|                          0|
+|           Boehm LLC|               1|          2013-10-28|         2013-10-28|                          0|
+|        Champlin LLC|               1|          2015-12-21|         2015-12-21|                          0|
+|         Reichel Inc|               1|          2018-06-17|         2018-06-17|                          0|
+|   Kertzmann-Nicolas|               1|          2018-11-27|         2018-11-27|                          0|
+|   Kling-Satterfield|               1|          2017-06-27|         2017-06-27|                          0|
+|      Nikolaus Group|               1|          2013-03-20|         2013-03-20|                          0|
+|Sanford, Howell a...|               1|          2019-03-05|         2019-03-05|                          0|
+|  Satterfield-Beatty|               1|          2019-09-24|         2019-09-24|                          0|
+|        Dooley Group|               1|          2010-12-03|         2010-12-03|                          0|
+|     Daugherty-Frami|               1|          2018-11-03|         2018-11-03|                          0|
+|         Jerde-Ferry|               1|          2014-09-23|         2014-09-23|                          0|
+|       O'Connell Inc|               1|          2019-10-30|         2019-10-30|                          0|
+|         Tromp Group|               1|          2014-08-23|         2014-08-23|                          0|
+|       Fritsch-Purdy|               1|          2011-02-03|         2011-02-03|                          0|
+|       Ullrich Group|               1|          2014-12-16|         2014-12-16|                          0|
+|         Beier Group|               1|          2017-11-20|         2017-11-20|                          0|
+|          Roob Group|               1|          2016-07-05|         2016-07-05|                          0|
+| Balistreri and Sons|               1|          2010-09-29|         2010-09-29|                          0|
+|        Bogisich LLC|               1|          2014-05-25|         2014-05-25|                          0|
+|Dickinson, Jaskol...|               1|          2015-06-25|         2015-06-25|                          0|
+|           Dare-Rice|               1|          2013-11-24|         2013-11-24|                          0|
+|       Heathcote LLC|               1|          2013-05-20|         2013-05-20|                          0|
+|           Von-Boehm|               1|          2018-03-30|         2018-03-30|                          0|
+|       Monahan Group|               1|          2018-12-26|         2018-12-26|                          0|
+|Gusikowski, Upton...|               1|          2013-11-15|         2013-11-15|                          0|
+|Gislason, Hills a...|               1|          2015-12-12|         2015-12-12|                          0|
+|     Schinner-Durgan|               1|          2018-08-14|         2018-08-14|                          0|
+|     Wilderman Group|               1|          2017-06-25|         2017-06-25|                          0|
+|Crona, Bechtelar ...|               1|          2016-04-13|         2016-04-13|                          0|
+|    Johnston-Collins|               1|          2012-02-13|         2012-02-13|                          0|
+|O'Connell, Krajci...|               1|          2018-09-01|         2018-09-01|                          0|
+|Carroll, Larkin a...|               1|          2019-04-27|         2019-04-27|                          0|
+|     Daugherty-Nolan|               1|          2016-02-26|         2016-02-26|                          0|
+|        Borer-Hickle|               1|          2013-03-07|         2013-03-07|                          0|
+|Feest, Oberbrunne...|               1|          2013-11-10|         2013-11-10|                          0|
+|Kuphal, Ernser an...|               1|          2019-02-05|         2019-02-05|                          0|
+|    Pfannerstill Inc|               1|          2011-05-26|         2011-05-26|                          0|
+|      Cormier-Hamill|               1|          2020-06-17|         2020-06-17|                          0|
+|McGlynn, Rau and ...|               1|          2011-12-28|         2011-12-28|                          0|
+|Hyatt, Fisher and...|               1|          2011-12-12|         2011-12-12|                          0|
+|    Kozey-Morissette|               1|          2017-01-19|         2017-01-19|                          0|
+|Langworth, MacGyv...|               1|          2011-09-15|         2011-09-15|                          0|
+|  Stoltenberg-Barton|               1|          2017-01-10|         2017-01-10|                          0|
+|     Tremblay-Cronin|               1|          2013-01-14|         2013-01-14|                          0|
+|       Bechtelar Inc|               1|          2017-09-21|         2017-09-21|                          0|
+|Feil, Donnelly an...|               1|          2012-12-29|         2012-12-29|                          0|
+|       Keebler-Bauch|               1|          2013-04-27|         2013-04-27|                          0|
+|       Pfeffer Group|               1|          2019-12-25|         2019-12-25|                          0|
+|        Schulist LLC|               1|          2020-02-27|         2020-02-27|                          0|
+|Balistreri, Rogah...|               1|          2014-03-09|         2014-03-09|                          0|
+|Hackett, Gleichne...|               1|          2019-04-04|         2019-04-04|                          0|
+|    Ratke-Williamson|               1|          2020-07-08|         2020-07-08|                          0|
+|   Ritchie-Wilkinson|               1|          2014-05-20|         2014-05-20|                          0|
+|Bahringer, Glover...|               1|          2017-02-07|         2017-02-07|                          0|
+|Wisoky, Miller an...|               1|          2011-11-27|         2011-11-27|                          0|
+|Hodkiewicz-Bergstrom|               1|          2019-04-25|         2019-04-25|                          0|
+|      Paucek-Kuvalis|               1|          2015-03-05|         2015-03-05|                          0|
+|Windler, Wisozk a...|               1|          2019-06-02|         2019-06-02|                          0|
+|Macejkovic, Boehm...|               1|          2010-11-07|         2010-11-07|                          0|
+|       Bayer-McClure|               1|          2015-02-04|         2015-02-04|                          0|
+|       Hand-Homenick|               1|          2011-03-19|         2011-03-19|                          0|
+|          Littel LLC|               1|          2010-09-16|         2010-09-16|                          0|
+|       Armstrong Inc|               1|          2020-04-24|         2020-04-24|                          0|
+|        Heller Group|               1|          2013-09-06|         2013-09-06|                          0|
+|Becker, Hermann a...|               1|          2015-03-30|         2015-03-30|                          0|
+|      MacGyver-Block|               1|          2016-04-21|         2016-04-21|                          0|
+|Predovic, Cumming...|               1|          2018-02-17|         2018-02-17|                          0|
+|  Powlowski-Connelly|               1|          2019-08-21|         2019-08-21|                          0|
+|     Beatty and Sons|               1|          2011-05-13|         2011-05-13|                          0|
+|       Sporer-Abbott|               1|          2016-10-27|         2016-10-27|                          0|
+|Weber, Bailey and...|               1|          2011-04-14|         2011-04-14|                          0|
+|Hilll, Beer and H...|               1|          2015-04-28|         2015-04-28|                          0|
+|Schumm, Stiedeman...|               1|          2012-04-30|         2012-04-30|                          0|
+|     Wisoky-Predovic|               1|          2019-09-24|         2019-09-24|                          0|
+|     Jenkins-Corkery|               1|          2014-11-09|         2014-11-09|                          0|
+|       Koelpin-Ferry|               1|          2015-11-28|         2015-11-28|                          0|
+|      Little-Hagenes|               1|          2012-05-04|         2012-05-04|                          0|
+|         Ebert-Beier|               1|          2010-10-23|         2010-10-23|                          0|
+|     Oberbrunner Inc|               1|          2013-01-12|         2013-01-12|                          0|
+|Wolf, Heller and ...|               1|          2016-04-13|         2016-04-13|                          0|
+|Ankunding, Ondric...|               1|          2015-04-11|         2015-04-11|                          0|
+|            Dach LLC|               1|          2017-06-02|         2017-06-02|                          0|
+|  Greenfelder-Hamill|               1|          2012-01-08|         2012-01-08|                          0|
+|          King-Wyman|               1|          2020-01-10|         2020-01-10|                          0|
+|Nitzsche, Gulgows...|               1|          2016-07-21|         2016-07-21|                          0|
+|Schmeler, Hills a...|               1|          2013-03-06|         2013-03-06|                          0|
+|         Strosin Inc|               1|          2018-11-13|         2018-11-13|                          0|
+|        Cummings LLC|               1|          2020-06-09|         2020-06-09|                          0|
+|     Kautzer-Rolfson|               1|          2017-02-01|         2017-02-01|                          0|
+|         Parker-Ward|               1|          2017-11-25|         2017-11-25|                          0|
+|Sporer, Kuhn and ...|               1|          2012-07-07|         2012-07-07|                          0|
+|      Bergnaum-Pagac|               1|          2013-09-12|         2013-09-12|                          0|
+|   Connelly and Sons|               1|          2012-07-26|         2012-07-26|                          0|
+|Johns, Pfeffer an...|               1|          2016-03-31|         2016-03-31|                          0|
+|        Mante-Wisoky|               1|          2018-01-18|         2018-01-18|                          0|
+|        Jerde-Walter|               1|          2015-02-03|         2015-02-03|                          0|
+|        Weissnat LLC|               1|          2020-02-13|         2020-02-13|                          0|
+|Stiedemann, Homen...|               1|          2020-05-27|         2020-05-27|                          0|
+|Larkin, Price and...|               1|          2012-11-13|         2012-11-13|                          0|
+|  Medhurst-Lueilwitz|               1|          2010-11-22|         2010-11-22|                          0|
+|            Toy-Rowe|               1|          2012-08-21|         2012-08-21|                          0|
+|          Jast-Bauch|               1|          2018-10-24|         2018-10-24|                          0|
+|           Feest Inc|               1|          2016-07-10|         2016-07-10|                          0|
+|Streich, Hahn and...|               1|          2015-04-15|         2015-04-15|                          0|
+|Upton, Hirthe and...|               1|          2013-12-15|         2013-12-15|                          0|
+|Armstrong, Crona ...|               1|          2015-10-06|         2015-10-06|                          0|
+|Lynch, McCullough...|               1|          2013-09-19|         2013-09-19|                          0|
+|            Funk LLC|               1|          2014-04-06|         2014-04-06|                          0|
+|      Terry-Gislason|               1|          2018-05-31|         2018-05-31|                          0|
+|  Armstrong and Sons|               1|          2012-02-22|         2012-02-22|                          0|
+|Pollich, Harvey a...|               1|          2014-07-24|         2014-07-24|                          0|
+|   Schaefer and Sons|               1|          2016-01-27|         2016-01-27|                          0|
+|Altenwerth, Volkm...|               1|          2016-10-22|         2016-10-22|                          0|
+|        Hammes-Hauck|               1|          2019-11-03|         2019-11-03|                          0|
+|Lubowitz, Maggio ...|               1|          2012-04-16|         2012-04-16|                          0|
+|      Kiehn and Sons|               1|          2014-04-23|         2014-04-23|                          0|
+|          Auer-Moore|               1|          2016-10-31|         2016-10-31|                          0|
+|       Terry-Denesik|               1|          2011-04-03|         2011-04-03|                          0|
+|Nicolas, Nitzsche...|               1|          2017-10-23|         2017-10-23|                          0|
+|Goldner, Langwort...|               1|          2013-07-09|         2013-07-09|                          0|
+|        Marvin Group|               1|          2020-02-24|         2020-02-24|                          0|
+|Heathcote, Runolf...|               1|          2014-11-10|         2014-11-10|                          0|
+|Johnson, Mosciski...|               1|          2018-03-25|         2018-03-25|                          0|
+|     Casper and Sons|               1|          2011-07-30|         2011-07-30|                          0|
+|  Keeling-Swaniawski|               1|          2011-01-04|         2011-01-04|                          0|
+|Kshlerin, Watsica...|               1|          2015-08-04|         2015-08-04|                          0|
+|      Nienow-Padberg|               1|          2012-02-19|         2012-02-19|                          0|
+|    Pfeffer and Sons|               1|          2012-11-01|         2012-11-01|                          0|
+|Emmerich, Little ...|               1|          2014-12-19|         2014-12-19|                          0|
+|Lind, Kertzmann a...|               1|          2011-12-28|         2011-12-28|                          0|
+|           Bayer LLC|               1|          2010-09-25|         2010-09-25|                          0|
+|        Tremblay LLC|               1|          2016-11-20|         2016-11-20|                          0|
+|Wiegand, Lang and...|               1|          2012-04-15|         2012-04-15|                          0|
+|      Boehm and Sons|               1|          2019-06-20|         2019-06-20|                          0|
+|Gottlieb, Bashiri...|               1|          2016-08-28|         2016-08-28|                          0|
+|        Deckow-Blick|               1|          2011-09-08|         2011-09-08|                          0|
+|      Price and Sons|               1|          2019-07-04|         2019-07-04|                          0|
+|    Berge-Macejkovic|               1|          2011-06-25|         2011-06-25|                          0|
+|    Reichel and Sons|               1|          2019-04-23|         2019-04-23|                          0|
+|   Funk-Christiansen|               1|          2017-12-04|         2017-12-04|                          0|
+|Little, Jenkins a...|               1|          2016-01-19|         2016-01-19|                          0|
+|Rolfson, West and...|               1|          2020-01-13|         2020-01-13|                          0|
+|Turcotte, Bernhar...|               1|          2019-07-10|         2019-07-10|                          0|
+|       Blick-Trantow|               1|          2014-02-10|         2014-02-10|                          0|
+|   Donnelly and Sons|               1|          2015-01-16|         2015-01-16|                          0|
+|Cormier, McCullou...|               1|          2019-10-11|         2019-10-11|                          0|
+|          Mann Group|               1|          2014-08-28|         2014-08-28|                          0|
+|Sporer, Pollich a...|               1|          2011-08-19|         2011-08-19|                          0|
+|        Stokes-Marks|               1|          2018-08-17|         2018-08-17|                          0|
+|        Bergnaum LLC|               1|          2019-05-16|         2019-05-16|                          0|
+|      Tremblay Group|               1|          2013-05-30|         2013-05-30|                          0|
+|Sanford, Labadie ...|               1|          2018-01-10|         2018-01-10|                          0|
+|        Waters Group|               1|          2013-05-02|         2013-05-02|                          0|
+|Hamill, Watsica a...|               1|          2020-05-04|         2020-05-04|                          0|
+| McLaughlin-Cummings|               1|          2019-11-10|         2019-11-10|                          0|
+|     Morar-Schneider|               1|          2012-07-16|         2012-07-16|                          0|
+|        Paucek Group|               1|          2017-07-09|         2017-07-09|                          0|
+|Ruecker, Oberbrun...|               1|          2011-05-16|         2011-05-16|                          0|
++--------------------+----------------+--------------------+-------------------+---------------------------+
+
